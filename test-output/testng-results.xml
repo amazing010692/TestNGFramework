@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-29T20:34:24 PST" name="Default suite" finished-at="2020-06-29T20:34:24 PST" duration-ms="139">
+  <suite started-at="2020-06-29T20:48:26 PST" name="Default suite" finished-at="2020-06-29T20:48:26 PST" duration-ms="91">
     <groups>
     </groups>
-    <test started-at="2020-06-29T20:34:24 PST" name="Default test" finished-at="2020-06-29T20:34:24 PST" duration-ms="139">
+    <test started-at="2020-06-29T20:48:26 PST" name="Default test" finished-at="2020-06-29T20:48:26 PST" duration-ms="91">
       <class name="testcases.TestCase1">
-        <test-method signature="doLogin()[pri:0, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:34:24 PST" name="doLogin" finished-at="2020-06-29T20:34:24 PST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method signature="doUserReg()[pri:0, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:34:24 PST" name="doUserReg" finished-at="2020-06-29T20:34:24 PST" duration-ms="12" status="PASS">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:48:26 PST" name="doUserReg" finished-at="2020-06-29T20:48:26 PST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:48:26 PST" name="doLogin" finished-at="2020-06-29T20:48:26 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
       </class> <!-- testcases.TestCase1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
