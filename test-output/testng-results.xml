@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-29T20:48:26 PST" name="Default suite" finished-at="2020-06-29T20:48:26 PST" duration-ms="91">
+  <suite started-at="2020-06-29T20:56:12 PST" name="Default suite" finished-at="2020-06-29T20:56:12 PST" duration-ms="92">
     <groups>
     </groups>
-    <test started-at="2020-06-29T20:48:26 PST" name="Default test" finished-at="2020-06-29T20:48:26 PST" duration-ms="91">
+    <test started-at="2020-06-29T20:56:12 PST" name="Default test" finished-at="2020-06-29T20:56:12 PST" duration-ms="92">
       <class name="testcases.TestCase1">
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:48:26 PST" name="doUserReg" finished-at="2020-06-29T20:48:26 PST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@4e91d63f]" started-at="2020-06-29T20:56:12 PST" name="launchBrowser" finished-at="2020-06-29T20:56:12 PST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@4e91d63f]" started-at="2020-06-29T20:56:12 PST" name="doUserReg" finished-at="2020-06-29T20:56:12 PST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@33afa13b]" started-at="2020-06-29T20:48:26 PST" name="doLogin" finished-at="2020-06-29T20:48:26 PST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@4e91d63f]" started-at="2020-06-29T20:56:12 PST" name="launchBrowser" finished-at="2020-06-29T20:56:12 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@4e91d63f]" started-at="2020-06-29T20:56:12 PST" name="doLogin" finished-at="2020-06-29T20:56:12 PST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
