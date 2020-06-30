@@ -2,6 +2,7 @@ package testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class TestCase2 {
 	
@@ -18,18 +19,20 @@ public class TestCase2 {
 			System.out.println("Test Case Failed.");
 		}*/
 		
+		SoftAssert softAssert = new SoftAssert();
+		
 		//Compare an actual result vs expected result.
 		System.out.println("Validating title.");
-		Assert.assertEquals(actual_title, expected_title);
+		softAssert.assertEquals(actual_title, expected_title);
 		
 		/*//isElementPresent("xpath") - True, False
 		Assert.assertTrue(false, "Element not found.");*/
 		
 		System.out.println("Validating image.");
-		Assert.assertEquals(true, false);
+		softAssert.assertEquals(true, false);
 		
 		System.out.println("Valiating Text box presence.");
-		Assert.assertEquals(true, false);
+		softAssert.assertEquals(true, false);
 		
 		/*//Forcefully fail a test case.
 		Assert.fail("Failing the test as the condition is not met.");*/
