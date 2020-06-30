@@ -8,6 +8,7 @@ public class TestCase2 {
 	@Test
 	public void validateTitles() {
 		System.out.println("Beginning");
+		
 		/*String expected_title = "Yahoo.com";	//excel
 		String actual_title = "Gmail.com";		//selenium
 		
@@ -25,6 +26,7 @@ public class TestCase2 {
 		
 		//Forcefully fail a test case.
 		Assert.fail("Failing the test as the condition is not met.");
+		
 		System.out.println("Ending");
 	}
 
