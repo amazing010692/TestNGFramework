@@ -2,22 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-30T17:38:52 PST" name="Default suite" finished-at="2020-06-30T17:38:53 PST" duration-ms="94">
+  <suite started-at="2020-06-30T17:52:35 PST" name="Default suite" finished-at="2020-06-30T17:52:35 PST" duration-ms="172">
     <groups>
     </groups>
-    <test started-at="2020-06-30T17:38:52 PST" name="Default test" finished-at="2020-06-30T17:38:53 PST" duration-ms="94">
+    <test started-at="2020-06-30T17:52:35 PST" name="Default test" finished-at="2020-06-30T17:52:35 PST" duration-ms="172">
       <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@47542153]" started-at="2020-06-30T17:38:52 PST" name="validateTitles" finished-at="2020-06-30T17:38:52 PST" duration-ms="27" status="FAIL">
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@47542153]" started-at="2020-06-30T17:52:35 PST" name="validateTitles" finished-at="2020-06-30T17:52:35 PST" duration-ms="30" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Element not found. expected [true] but found [false]]]>
+              <![CDATA[Failing the test as the condition is not met.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Element not found. expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Failing the test as the condition is not met.
 at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at testcases.TestCase2.validateTitles(TestCase2.java:23)
+at testcases.TestCase2.validateTitles(TestCase2.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
