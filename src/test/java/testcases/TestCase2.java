@@ -16,7 +16,9 @@ public class TestCase2 {
 			System.out.println("Test Case Failed.");
 		}*/
 		
-		Assert.assertEquals(actual_title, expected_title);
+		//Assert.assertEquals(actual_title, expected_title);
+		//isElementPresent("xpath") - True, False
+		Assert.assertTrue(false, "Element not found.");
 	}
 
 }
