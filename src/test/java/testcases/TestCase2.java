@@ -19,8 +19,11 @@ public class TestCase2 {
 		/*//Compare an actual result vs expected result.
 		Assert.assertEquals(actual_title, expected_title);*/
 		
-		//isElementPresent("xpath") - True, False
-		Assert.assertTrue(false, "Element not found.");
+		/*//isElementPresent("xpath") - True, False
+		Assert.assertTrue(false, "Element not found.");*/
+		
+		//Forcefully fail a test case.
+		Assert.fail("Failing the test as the condition is not met.");
 	}
 
 }
