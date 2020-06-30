@@ -29,15 +29,17 @@ public class TestCase2 {
 		Assert.assertTrue(false, "Element not found.");*/
 		
 		System.out.println("Validating image.");
-		softAssert.assertEquals(true, false);
+		softAssert.assertEquals(true, false, "Image not present.");
 		
-		System.out.println("Valiating Text box presence.");
-		softAssert.assertEquals(true, false);
+		System.out.println("Validating Text box presence.");
+		softAssert.assertEquals(true, false, "Text box not present.");
 		
 		/*//Forcefully fail a test case.
 		Assert.fail("Failing the test as the condition is not met.");*/
 		
 		System.out.println("Ending");
+		
+		softAssert.assertAll();
 	}
 
 }
