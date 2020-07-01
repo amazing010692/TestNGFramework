@@ -15,5 +15,10 @@ public class TestCase3 {
 	public void doLogin() {
 		System.out.println("Executing login test");
 	}
+	
+	@Test(priority = 3)
+	public void thirdTest() {
+		System.out.println("Executing Third Test");
+	}
 
 }
