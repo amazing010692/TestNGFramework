@@ -5,6 +5,7 @@
     <classes>
       <class name="testcases.TestCase3">
         <methods>
+          <include name="doLogin"/>
           <include name="doUserReg"/>
         </methods>
       </class> <!-- testcases.TestCase3 -->
