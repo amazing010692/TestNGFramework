@@ -11,17 +11,17 @@ public class TestCase3 {
 		Assert.fail("User is not registered successfully.");
 	}
 	
-	@Test(priority = 2, dependsOnMethods = {"doUserReg", "thirdTest"})
+	@Test(priority = 2, dependsOnMethods = "doUserReg")
 	public void doLogin() {
 		System.out.println("Executing login test");
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, dependsOnMethods = "doUserReg")
 	public void thirdTest() {
 		System.out.println("Executing Third Test");
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4, dependsOnMethods = "doUserReg")
 	public void fourthTest() {
 		System.out.println("Executing Fourth Test");
 	}
