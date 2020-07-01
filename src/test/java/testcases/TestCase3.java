@@ -20,5 +20,10 @@ public class TestCase3 {
 	public void thirdTest() {
 		System.out.println("Executing Third Test");
 	}
+	
+	@Test(priority = 4)
+	public void fourthTest() {
+		System.out.println("Executing Fourth Test");
+	}
 
 }
