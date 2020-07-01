@@ -1,6 +1,5 @@
 package testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestCase3 {
