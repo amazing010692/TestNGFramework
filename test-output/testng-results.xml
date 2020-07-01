@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-30T19:21:17 PST" name="Default suite" finished-at="2020-06-30T19:21:17 PST" duration-ms="78">
+  <suite started-at="2020-07-01T17:34:26 PST" name="Default suite" finished-at="2020-07-01T17:34:26 PST" duration-ms="201">
     <groups>
     </groups>
-    <test started-at="2020-06-30T19:21:17 PST" name="Default test" finished-at="2020-06-30T19:21:17 PST" duration-ms="78">
-      <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@47542153]" started-at="2020-06-30T19:21:17 PST" name="validateTitles" finished-at="2020-06-30T19:21:17 PST" duration-ms="19" status="FAIL">
+    <test started-at="2020-07-01T17:34:26 PST" name="Default test" finished-at="2020-07-01T17:34:26 PST" duration-ms="201">
+      <class name="testcases.TestCase3">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@33afa13b]" started-at="2020-07-01T17:34:26 PST" name="doUserReg" finished-at="2020-07-01T17:34:26 PST" duration-ms="30" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The following asserts failed:
-expected [Yahoo.com] but found [Gmail.com],
-Image not present. expected [false] but found [true],
-Text box not present. expected [false] but found [true]]]>
+              <![CDATA[User not registered successfully.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Yahoo.com] but found [Gmail.com],
-Image not present. expected [false] but found [true],
-Text box not present. expected [false] but found [true]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at testcases.TestCase2.validateTitles(TestCase2.java:42)
+              <![CDATA[java.lang.AssertionError: User not registered successfully.
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCase3.doUserReg(TestCase3.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,8 +49,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitles -->
-      </class> <!-- testcases.TestCase2 -->
+        </test-method> <!-- doUserReg -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@33afa13b]" started-at="2020-07-01T17:34:26 PST" name="doLogin" finished-at="2020-07-01T17:34:26 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testcases.TestCase3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
