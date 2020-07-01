@@ -6,7 +6,6 @@
       <class name="testcases.TestCase3">
         <methods>
           <include name="doLogin"/>
-          <include name="thirdTest"/>
           <include name="fourthTest"/>
           <include name="doUserReg"/>
         </methods>
