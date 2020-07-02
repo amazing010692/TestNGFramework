@@ -8,35 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Functional Suite</th></tr>
-<tr><td><a href="#t0">Login Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">151</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validate Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">38</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Dependency Test</a></td><td class="num">1</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">50</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num attn">2</th><th class="num">0</th><th class="num attn">2</th><th class="num">239</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">100</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Functional Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.TestCase1</td><td><a href="#m0">doLogin</a></td><td rowspan="1">1593661481369</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m1">doUserReg</a></td><td rowspan="1">1593661481322</td><td rowspan="1">24</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Validate Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.TestCase2</td><td><a href="#m2">validateTitles</a></td><td rowspan="1">1593661481621</td><td rowspan="1">17</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Dependency Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.TestCase3</td><td><a href="#m3">doUserReg</a></td><td rowspan="1">1593661481752</td><td rowspan="1">7</td></tr><tr><th colspan="4">Dependency Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">testcases.TestCase3</td><td><a href="#m4">doLogin</a></td><td rowspan="1">1593661481763</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">fourthTest</a></td><td rowspan="1">1593661481780</td><td rowspan="1">0</td></tr><tr><th colspan="4">Dependency Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.TestCase3</td><td><a href="#m6">thirdTest</a></td><td rowspan="1">1593661481771</td><td rowspan="1">7</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.TestCase1</td><td><a href="#m0">doLogin</a></td><td rowspan="1">1593662369894</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m1">doUserReg</a></td><td rowspan="1">1593662369868</td><td rowspan="1">11</td></tr></tbody>
 </table>
-<h2>Login Test</h2><h3 id="m0">testcases.TestCase1#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">testcases.TestCase1#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">testcases.TestCase1#doUserReg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validate Test</h2><h3 id="m2">testcases.TestCase2#validateTitles</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	expected [Yahoo.com] but found [Gmail.com],
-	Image not present. expected [false] but found [true],
-	Text box not present. expected [false] but found [true]
-	at testcases.TestCase2.validateTitles(TestCase2.java:42)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Dependency Test</h2><h3 id="m3">testcases.TestCase3#doUserReg</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User is not registered successfully.
-	at testcases.TestCase3.doUserReg(TestCase3.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases.TestCase3#doLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@1b1473ab] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcases.TestCase3#fourthTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@1b1473ab] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testcases.TestCase3#thirdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
