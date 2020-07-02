@@ -8,7 +8,7 @@
     </classes>
   </test> <!-- Test -->
   
-    <test name="Regression Validate Title Test"">
+    <test name="Regression Validate Title Test">
     <classes>
       <class name="regression.TestCase2"/>
     </classes>
