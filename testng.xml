@@ -4,7 +4,7 @@
 
 	<groups>
 		<run>
-			<exclude name="bvt"></exclude>
+			<include name="functional"></include>
 		</run>
 	</groups>
 
