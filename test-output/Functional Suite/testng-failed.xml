@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Validate Test(failed)">
-    <groups>
-      <run>
-        <exclude name="bvt"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testcases.TestCase2">
-        <methods>
-          <include name="validateTitles"/>
-        </methods>
-      </class> <!-- testcases.TestCase2 -->
-    </classes>
-  </test> <!-- Validate Test(failed) -->
   <test thread-count="5" name="Dependency Test(failed)">
     <groups>
       <run>
-        <exclude name="bvt"/>
+        <include name="functional"/>
       </run>
     </groups>
     <classes>
