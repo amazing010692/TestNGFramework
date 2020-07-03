@@ -30,13 +30,11 @@ public class TestCase1 {
 
 	@Test(priority = 1, groups = "functional")
 	public void doUserReg() {
-
 		try {
 			System.out.println("Executing User Registration test");
 		} catch (Throwable t) {
 			System.out.println("Capturing Screenshot");
 		}
-
 	}
 
 	@Test(priority = 2, groups = "functional")
