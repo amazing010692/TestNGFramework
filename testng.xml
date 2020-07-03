@@ -15,12 +15,12 @@
 	</test> <!-- Test -->
 
 	<test name="Dependency Test">
-
+		<!--  
 		<groups>
 			<run>
 				<include name="bvt"></include>
 			</run>
-		</groups>
+		</groups>	-->
 
 		<classes>
 			<class name="testcases.TestCase3" />
