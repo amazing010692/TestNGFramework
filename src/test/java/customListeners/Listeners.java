@@ -12,7 +12,7 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("Passed Test -- " + result.getTestName());	
+		System.out.println("This is a Passed Test -- " + result.getTestName());	
 	}
 
 	public void onTestFailure(ITestResult result) {
