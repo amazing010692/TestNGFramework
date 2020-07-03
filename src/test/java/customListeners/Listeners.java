@@ -12,13 +12,11 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Passed Test -- " + result.getTestName());	
 	}
 
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Capturing screesnshot for the Failed Test -- " + result.getTestName());
 	}
 
 	public void onTestSkipped(ITestResult result) {
