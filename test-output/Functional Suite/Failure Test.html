@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Validate Test</title>
+<title>TestNG:  Failure Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Validate Test</h2><table border='1' align="center">
+<h2 align='center'>Failure Test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 03 18:43:01 PST 2020</td>
+<td>Started on:</td><td>Fri Jul 03 18:43:02 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (68 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (7 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TestCase2.validateTitles()'><b>validateTitles</b><br>Test class: testcases.TestCase2</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Yahoo.com] but found [Gmail.com],
-	Image not present. expected [false] but found [true],
-	Text box not present. expected [false] but found [true]
-	at testcases.TestCase2.validateTitles(TestCase2.java:42)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace36657658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace36657658'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Yahoo.com] but found [Gmail.com],
-	Image not present. expected [false] but found [true],
-	Text box not present. expected [false] but found [true]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at testcases.TestCase2.validateTitles(TestCase2.java:42)
+<td title='testcases.TestFailure.doLogin()'><b>doLogin</b><br>Test class: testcases.TestFailure</td>
+<td><div><pre>java.lang.AssertionError: Failing the Login Test
+	at testcases.TestFailure.doLogin(TestFailure.java:10)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1650813924", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1650813924'><pre>java.lang.AssertionError: Failing the Login Test
+	at org.testng.Assert.fail(Assert.java:96)
+	at testcases.TestFailure.doLogin(TestFailure.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,7 +109,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testcases.TestCase2@548d708a</td></tr>
+<td>testcases.TestFailure@2d901eb0</td></tr>
 </table><p>
 </body>
 </html>
