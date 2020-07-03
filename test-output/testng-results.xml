@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="4" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-02T10:20:07Z" name="Functional Suite" finished-at="2020-07-02T10:20:07Z" duration-ms="240">
+  <suite started-at="2020-07-03T03:30:41Z" name="Functional Suite" finished-at="2020-07-03T03:30:42Z" duration-ms="558">
     <groups>
       <group name="bvt">
-        <method signature="TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@d737b89]" name="fourthTest" class="testcases.TestCase3"/>
+        <method signature="TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@75437611]" name="fourthTest" class="testcases.TestCase3"/>
       </group> <!-- bvt -->
       <group name="functional">
-        <method signature="TestCase1.doLogin()[pri:2, instance:testcases.TestCase1@7d0b7e3c]" name="doLogin" class="testcases.TestCase1"/>
-        <method signature="TestCase1.doUserReg()[pri:1, instance:testcases.TestCase1@7d0b7e3c]" name="doUserReg" class="testcases.TestCase1"/>
+        <method signature="TestCase1.doLogin()[pri:2, instance:testcases.TestCase1@6e6f2380]" name="doLogin" class="testcases.TestCase1"/>
+        <method signature="TestCase1.doUserReg()[pri:1, instance:testcases.TestCase1@6e6f2380]" name="doUserReg" class="testcases.TestCase1"/>
+        <method signature="TestCase3.doUserReg()[pri:1, instance:testcases.TestCase3@75437611]" name="doUserReg" class="testcases.TestCase3"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@75437611]" name="doLogin" class="testcases.TestCase3"/>
+        <method signature="TestCase3.thirdTest()[pri:3, instance:testcases.TestCase3@75437611]" name="thirdTest" class="testcases.TestCase3"/>
       </group> <!-- functional -->
       <group name="smoke">
-        <method signature="TestCase2.validateTitles()[pri:0, instance:testcases.TestCase2@742ff096]" name="validateTitles" class="testcases.TestCase2"/>
+        <method signature="TestCase2.validateTitles()[pri:0, instance:testcases.TestCase2@3a7442c7]" name="validateTitles" class="testcases.TestCase2"/>
+        <method signature="TestCase3.doUserReg()[pri:1, instance:testcases.TestCase3@75437611]" name="doUserReg" class="testcases.TestCase3"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@75437611]" name="doLogin" class="testcases.TestCase3"/>
+        <method signature="TestCase3.thirdTest()[pri:3, instance:testcases.TestCase3@75437611]" name="thirdTest" class="testcases.TestCase3"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-07-02T10:20:07Z" name="Login Test" finished-at="2020-07-02T10:20:07Z" duration-ms="80">
+    <test started-at="2020-07-03T03:30:41Z" name="Login Test" finished-at="2020-07-03T03:30:41Z" duration-ms="85">
       <class name="testcases.TestCase1">
-        <test-method is-config="true" signature="creatingDBConn()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="creatingDBConn" finished-at="2020-07-02T10:20:07Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="creatingDBConn()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="creatingDBConn" finished-at="2020-07-03T03:30:41Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingDBConn -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="launchBrowser" finished-at="2020-07-02T10:20:07Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="launchBrowser" finished-at="2020-07-03T03:30:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="doUserReg" finished-at="2020-07-02T10:20:07Z" duration-ms="9" status="PASS">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="doUserReg" finished-at="2020-07-03T03:30:41Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="closeBrowser" finished-at="2020-07-02T10:20:07Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="closeBrowser" finished-at="2020-07-03T03:30:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="doLogin" finished-at="2020-07-02T10:20:07Z" duration-ms="4" status="PASS">
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="doLogin" finished-at="2020-07-03T03:30:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="launchBrowser" finished-at="2020-07-02T10:20:07Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="launchBrowser" finished-at="2020-07-03T03:30:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="closeBrowser" finished-at="2020-07-02T10:20:07Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="closeBrowser" finished-at="2020-07-03T03:30:41Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closingDBConn()[pri:0, instance:testcases.TestCase1@7d0b7e3c]" started-at="2020-07-02T10:20:07Z" name="closingDBConn" finished-at="2020-07-02T10:20:07Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closingDBConn()[pri:0, instance:testcases.TestCase1@6e6f2380]" started-at="2020-07-03T03:30:41Z" name="closingDBConn" finished-at="2020-07-03T03:30:41Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDBConn -->
       </class> <!-- testcases.TestCase1 -->
     </test> <!-- Login Test -->
-    <test started-at="2020-07-02T10:20:07Z" name="Validate Test" finished-at="2020-07-02T10:20:07Z" duration-ms="14">
+    <test started-at="2020-07-03T03:30:42Z" name="Validate Test" finished-at="2020-07-03T03:30:42Z" duration-ms="16">
       <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@742ff096]" started-at="2020-07-02T10:20:07Z" name="validateTitles" finished-at="2020-07-02T10:20:07Z" duration-ms="10" status="FAIL">
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@3a7442c7]" started-at="2020-07-03T03:30:42Z" name="validateTitles" finished-at="2020-07-03T03:30:42Z" duration-ms="10" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -101,9 +107,84 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- validateTitles -->
       </class> <!-- testcases.TestCase2 -->
     </test> <!-- Validate Test -->
-    <test started-at="2020-07-02T10:20:07Z" name="Dependency Test" finished-at="2020-07-02T10:20:07Z" duration-ms="9">
+    <test started-at="2020-07-03T03:30:42Z" name="Dependency Test" finished-at="2020-07-03T03:30:42Z" duration-ms="56">
       <class name="testcases.TestCase3">
-        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@d737b89]" started-at="2020-07-02T10:20:07Z" name="fourthTest" finished-at="2020-07-02T10:20:07Z" duration-ms="4" status="PASS">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@75437611]" started-at="2020-07-03T03:30:42Z" name="doUserReg" finished-at="2020-07-03T03:30:42Z" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User is not registered successfully.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User is not registered successfully.
+at org.testng.Assert.fail(Assert.java:96)
+at testcases.TestCase3.doUserReg(TestCase3.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@75437611]" started-at="2020-07-03T03:30:42Z" name="doLogin" finished-at="2020-07-03T03:30:42Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@75437611] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@75437611] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@75437611]" started-at="2020-07-03T03:30:42Z" name="thirdTest" finished-at="2020-07-03T03:30:42Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@75437611]" started-at="2020-07-03T03:30:42Z" name="fourthTest" finished-at="2020-07-03T03:30:42Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTest -->

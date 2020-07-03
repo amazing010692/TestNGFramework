@@ -10,4 +10,14 @@
       </class> <!-- testcases.TestCase2 -->
     </classes>
   </test> <!-- Validate Test(failed) -->
+  <test thread-count="5" name="Dependency Test(failed)">
+    <classes>
+      <class name="testcases.TestCase3">
+        <methods>
+          <include name="doLogin"/>
+          <include name="doUserReg"/>
+        </methods>
+      </class> <!-- testcases.TestCase3 -->
+    </classes>
+  </test> <!-- Dependency Test(failed) -->
 </suite> <!-- Failed suite [Functional Suite] -->
