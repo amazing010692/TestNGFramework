@@ -12,11 +12,11 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("This is a Passed Test -- " + result.getTestName());	
+		System.out.println("This is a Passed Test -- " + result.getName());	
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("Capturing screesnshot for the Failed Test -- " + result.getTestName());
+		System.out.println("Capturing screesnshot for the Failed Test -- " + result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result) {
