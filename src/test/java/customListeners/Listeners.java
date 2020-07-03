@@ -16,7 +16,7 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("Capturing screesnshot for the Failed Test -- " + result.getName());
+		System.out.println("Capturing screenshot for the Failed Test -- " + result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result) {
