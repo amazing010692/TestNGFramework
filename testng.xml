@@ -15,16 +15,17 @@
 	</test> <!-- Test -->
 
 	<test name="Dependency Test">
-	
-		<!--  
-		<groups>
-			<run>
-				<include name="bvt"></include>
-			</run>
-		</groups>	-->
+
+		<!-- <groups> <run> <include name="bvt"></include> </run> </groups> -->
 
 		<classes>
 			<class name="testcases.TestCase3" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Failure Test">
+		<classes>
+			<class name="testcases.TestFailure" />
 		</classes>
 	</test> <!-- Test -->
 
