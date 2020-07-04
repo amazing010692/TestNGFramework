@@ -17,7 +17,8 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		Reporter.log("Screenshot Link");
+		Reporter.log("<a href = \"C:\\Users\\hello\\Documents\\Java_Tests\\"
+				+ "Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\">Screenshot Link</a>");
 		System.out.println("Capturing screenshot for the Failed Test -- " + result.getName());
 	}
 
