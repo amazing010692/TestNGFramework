@@ -5,13 +5,31 @@
       <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
     </line>
     <line>
-      <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
     </line>
     <line>
       <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
     </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-07-04T05:52:26Z" name="Functional Suite" finished-at="2020-07-04T05:52:26Z" duration-ms="279">
+  <suite started-at="2020-07-04T06:05:56Z" name="Functional Suite" finished-at="2020-07-04T06:05:57Z" duration-ms="456">
     <groups>
       <group name="bvt">
         <method signature="TestCase3.fourthTest()[pri:4, instance:testcases.TestCase3@15043a2f]" name="fourthTest" class="testcases.TestCase3"/>
@@ -30,45 +48,45 @@
         <method signature="TestCase3.thirdTest()[pri:3, instance:testcases.TestCase3@15043a2f]" name="thirdTest" class="testcases.TestCase3"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-07-04T05:52:26Z" name="Login Test" finished-at="2020-07-04T05:52:26Z" duration-ms="58">
+    <test started-at="2020-07-04T06:05:56Z" name="Login Test" finished-at="2020-07-04T06:05:57Z" duration-ms="52">
       <class name="testcases.TestCase1">
-        <test-method is-config="true" signature="creatingDBConn()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="creatingDBConn" finished-at="2020-07-04T05:52:26Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="creatingDBConn()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:56Z" name="creatingDBConn" finished-at="2020-07-04T06:05:56Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingDBConn -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="launchBrowser" finished-at="2020-07-04T05:52:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:56Z" name="launchBrowser" finished-at="2020-07-04T06:05:56Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="doUserReg" finished-at="2020-07-04T05:52:26Z" duration-ms="8" status="PASS">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:56Z" name="doUserReg" finished-at="2020-07-04T06:05:57Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="closeBrowser" finished-at="2020-07-04T05:52:26Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:57Z" name="closeBrowser" finished-at="2020-07-04T06:05:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="launchBrowser" finished-at="2020-07-04T05:52:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:57Z" name="launchBrowser" finished-at="2020-07-04T06:05:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="doLogin" finished-at="2020-07-04T05:52:26Z" duration-ms="2" status="PASS">
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:57Z" name="doLogin" finished-at="2020-07-04T06:05:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="closeBrowser" finished-at="2020-07-04T05:52:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:57Z" name="closeBrowser" finished-at="2020-07-04T06:05:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closingDBConn()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T05:52:26Z" name="closingDBConn" finished-at="2020-07-04T05:52:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closingDBConn()[pri:0, instance:testcases.TestCase1@78e4deb0]" started-at="2020-07-04T06:05:57Z" name="closingDBConn" finished-at="2020-07-04T06:05:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDBConn -->
       </class> <!-- testcases.TestCase1 -->
     </test> <!-- Login Test -->
-    <test started-at="2020-07-04T05:52:26Z" name="Validate Test" finished-at="2020-07-04T05:52:26Z" duration-ms="17">
+    <test started-at="2020-07-04T06:05:57Z" name="Validate Test" finished-at="2020-07-04T06:05:57Z" duration-ms="38">
       <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@712625fd]" started-at="2020-07-04T05:52:26Z" name="validateTitles" finished-at="2020-07-04T05:52:26Z" duration-ms="10" status="FAIL">
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@712625fd]" started-at="2020-07-04T06:05:57Z" name="validateTitles" finished-at="2020-07-04T06:05:57Z" duration-ms="17" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -115,13 +133,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
             </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validateTitles -->
       </class> <!-- testcases.TestCase2 -->
     </test> <!-- Validate Test -->
-    <test started-at="2020-07-04T05:52:26Z" name="Dependency Test" finished-at="2020-07-04T05:52:26Z" duration-ms="28">
+    <test started-at="2020-07-04T06:05:57Z" name="Dependency Test" finished-at="2020-07-04T06:05:57Z" duration-ms="52">
       <class name="testcases.TestCase3">
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T05:52:26Z" name="doUserReg" finished-at="2020-07-04T05:52:26Z" duration-ms="3" status="FAIL">
+        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T06:05:57Z" name="doUserReg" finished-at="2020-07-04T06:05:57Z" duration-ms="4" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User is not registered successfully.]]>
@@ -162,9 +186,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
             </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T05:52:26Z" name="doLogin" finished-at="2020-07-04T05:52:26Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T06:05:57Z" name="doLogin" finished-at="2020-07-04T06:05:57Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@15043a2f] depends on not successfully finished methods]]>
@@ -195,23 +225,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T05:52:26Z" name="thirdTest" finished-at="2020-07-04T05:52:26Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="2" status="PASS">
+        <test-method signature="thirdTest()[pri:3, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T06:05:57Z" name="thirdTest" finished-at="2020-07-04T06:05:57Z" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTest -->
-        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T05:52:26Z" name="fourthTest" finished-at="2020-07-04T05:52:26Z" duration-ms="2" status="PASS">
+        <test-method signature="fourthTest()[pri:4, instance:testcases.TestCase3@15043a2f]" started-at="2020-07-04T06:05:57Z" name="fourthTest" finished-at="2020-07-04T06:05:57Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTest -->
       </class> <!-- testcases.TestCase3 -->
     </test> <!-- Dependency Test -->
-    <test started-at="2020-07-04T05:52:26Z" name="Failure Test" finished-at="2020-07-04T05:52:26Z" duration-ms="7">
+    <test started-at="2020-07-04T06:05:57Z" name="Failure Test" finished-at="2020-07-04T06:05:57Z" duration-ms="18">
       <class name="testcases.TestFailure">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T05:52:26Z" name="setUp" finished-at="2020-07-04T05:52:26Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T06:05:56Z" name="setUp" finished-at="2020-07-04T06:05:56Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="doLogin()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T05:52:26Z" name="doLogin" finished-at="2020-07-04T05:52:26Z" duration-ms="2" status="FAIL">
+        <test-method signature="doLogin()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T06:05:57Z" name="doLogin" finished-at="2020-07-04T06:05:57Z" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing the Login Test]]>
@@ -252,9 +282,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank">Screenshot Link</a>]]>
             </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg" target = "_blank"><img src = "C:\Users\hello\Documents\Java_Tests\Selenium_WebDriverManager_Tests\screenshot\error.jpg"></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T05:52:26Z" name="tearDown" finished-at="2020-07-04T05:52:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestFailure@5afa3c9]" started-at="2020-07-04T06:05:57Z" name="tearDown" finished-at="2020-07-04T06:05:57Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
