@@ -21,7 +21,8 @@ public class Listeners implements ITestListener {
 				+ "Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\" target = \"_blank\">Screenshot Link</a>");
 		Reporter.log("<br>");
 		Reporter.log("<a href = \"C:\\Users\\hello\\Documents\\Java_Tests\\"
-				+ "Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\" target = \"_blank\"><img src = \"C:\\Users\\hello\\"
+				+ "Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\" target = \"_blank\">"
+				+ "<img height= 200 width = 200 src = \"C:\\Users\\hello\\"
 				+ "Documents\\Java_Tests\\Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\"></a>");
 		System.out.println("Capturing screenshot for the Failed Test -- " + result.getName());
 	}
