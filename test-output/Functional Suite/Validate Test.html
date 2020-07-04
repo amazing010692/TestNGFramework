@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 04 11:08:18 PST 2020</td>
+<td>Started on:</td><td>Sat Jul 04 13:28:21 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (35 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (28 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TestCase2.validateTitles()'><b>validateTitles</b><br>Test class: testcases.TestCase2</td>
+<td title='testcases.TestCase2.validateTitles()'><b>validateTitles</b><br>Test class: testcases.TestCase2<br/>
+<a href="#Output-405896924" onClick='toggleBox("Output-405896924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405896924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405896924">
+Screenshot Link<br/>
+</div>
+</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
 	expected [Yahoo.com] but found [Gmail.com],
 	Image not present. expected [false] but found [true],
 	Text box not present. expected [false] but found [true]
 	at testcases.TestCase2.validateTitles(TestCase2.java:42)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1277933280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1277933280'><pre>java.lang.AssertionError: The following asserts failed:
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace405896924", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace405896924'><pre>java.lang.AssertionError: The following asserts failed:
 	expected [Yahoo.com] but found [Gmail.com],
 	Image not present. expected [false] but found [true],
 	Text box not present. expected [false] but found [true]
@@ -107,7 +114,6 @@ function toggleAllBoxes() {
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
