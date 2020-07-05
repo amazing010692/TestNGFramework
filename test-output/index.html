@@ -173,6 +173,25 @@
           <div class="suite-Functional_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">testcases.TestFailure</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin">
+                  </a> <!-- doLogin -->
+                  <span class="method-name">doLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failing the Login Test
+	at testcases.TestFailure.doLogin(TestFailure.java:10)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Suite-class-failed -->
+          <div class="suite-Functional_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">testcases.TestCase2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -186,25 +205,6 @@
 	Image not present. expected [false] but found [true],
 	Text box not present. expected [false] but found [true]
 	at testcases.TestCase2.validateTitles(TestCase2.java:42)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Functional_Suite-class-failed -->
-          <div class="suite-Functional_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.TestFailure</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="doLogin">
-                  </a> <!-- doLogin -->
-                  <span class="method-name">doLogin</span>
-                  <div class="stack-trace">java.lang.AssertionError: Failing the Login Test
-	at testcases.TestFailure.doLogin(TestFailure.java:10)
 ... Removed 26 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -241,7 +241,7 @@
                   <a name="doLogin">
                   </a> <!-- doLogin -->
                   <span class="method-name">doLogin</span>
-                  <div class="stack-trace">java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@2d29b4ee] depends on not successfully finished methods
+                  <div class="stack-trace">java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testcases.TestCase3@3b35a229] depends on not successfully finished methods
 ... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -420,27 +420,27 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateTitles')
 data.setCell(0, 2, 'testcases.TestCase2')
-data.setCell(0, 3, 64);
+data.setCell(0, 3, 20);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'doUserReg')
 data.setCell(1, 2, 'testcases.TestCase1')
-data.setCell(1, 3, 15);
+data.setCell(1, 3, 14);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'doLogin')
-data.setCell(2, 2, 'testcases.TestCase1')
-data.setCell(2, 3, 10);
+data.setCell(2, 2, 'testcases.TestFailure')
+data.setCell(2, 3, 7);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'doUserReg')
+data.setCell(3, 1, 'thirdTest')
 data.setCell(3, 2, 'testcases.TestCase3')
 data.setCell(3, 3, 5);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'doLogin')
-data.setCell(4, 2, 'testcases.TestFailure')
-data.setCell(4, 3, 3);
+data.setCell(4, 1, 'doUserReg')
+data.setCell(4, 2, 'testcases.TestCase3')
+data.setCell(4, 3, 4);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'thirdTest')
-data.setCell(5, 2, 'testcases.TestCase3')
-data.setCell(5, 3, 2);
+data.setCell(5, 1, 'doLogin')
+data.setCell(5, 2, 'testcases.TestCase1')
+data.setCell(5, 3, 3);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'fourthTest')
 data.setCell(6, 2, 'testcases.TestCase3')
@@ -453,7 +453,7 @@ window.suiteTableData['Functional_Suite']= { tableData: data, tableDiv: 'times-d
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 101 ms</span>
+              <span class="suite-total-time">Total running time: 55 ms</span>
               <div id="times-div-Functional_Suite">
               </div> <!-- times-div-Functional_Suite -->
             </div> <!-- times-div -->
@@ -513,11 +513,11 @@ return data;
               <div class="chronological-class-name">testcases.TestCase1</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">creatingDBConn</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">86 ms</span>
+                <span class="method-start">93 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doUserReg</span>
@@ -525,23 +525,23 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">136 ms</span>
+                <span class="method-start">121 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">166 ms</span>
+                <span class="method-start">130 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">doLogin</span>
-                <span class="method-start">205 ms</span>
+                <span class="method-start">130 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">219 ms</span>
+                <span class="method-start">140 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">closingDBConn</span>
-                <span class="method-start">219 ms</span>
+                <span class="method-start">141 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -550,7 +550,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateTitles</span>
-                <span class="method-start">521 ms</span>
+                <span class="method-start">268 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -559,15 +559,15 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">doUserReg</span>
-                <span class="method-start">641 ms</span>
+                <span class="method-start">365 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">thirdTest</span>
-                <span class="method-start">659 ms</span>
+                <span class="method-start">382 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fourthTest</span>
-                <span class="method-start">665 ms</span>
+                <span class="method-start">389 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -576,11 +576,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">doLogin</span>
-                <span class="method-start">705 ms</span>
+                <span class="method-start">418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">744 ms</span>
+                <span class="method-start">458 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
