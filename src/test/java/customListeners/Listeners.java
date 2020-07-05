@@ -17,6 +17,7 @@ public class Listeners implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
+		System.setProperty("org.uncommons.reportng.escape-output", "false");
 		Reporter.log("<a href = \"C:\\Users\\hello\\Documents\\Java_Tests\\"
 				+ "Selenium_WebDriverManager_Tests\\screenshot\\error.jpg\" target = \"_blank\">Screenshot Link</a>");
 		Reporter.log("<br>");
