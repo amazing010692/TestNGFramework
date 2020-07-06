@@ -20,6 +20,10 @@ public class TestNGParameterizationExcel {
 			excel = new ExcelReader("C:\\Users\\hello\\Documents\\testngdata.xlsx");
 		}
 		
+		//Get the total number of rows and columns.
+		String sheetName = "loginTest";
+		int rows = excel.getRowCount(sheetName);
+		
 		//Create an object array with total number of rows and columns.
 		Object[][] data = new Object[2][3];
 		return data;
