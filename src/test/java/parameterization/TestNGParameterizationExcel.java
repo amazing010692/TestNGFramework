@@ -30,7 +30,9 @@ public class TestNGParameterizationExcel {
 		
 		//Loop to run on rows and columns.
 		for(int rowNum = 2; rowNum <= rows; rowNum++) {
-			
+			for(int colNum = 0; colNum < cols; colNum++) {
+				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
+			}
 		}
 		
 		return data;
