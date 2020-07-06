@@ -15,7 +15,10 @@ public class TestParameterization {
 		Object[][] data = new Object[3][2];
 		
 		data[0][0] = "trainer@way2automation.com";
-		data[0][1] = "testpass123";		
+		data[0][1] = "testpass123";
+		
+		data[1][0] = "seleniumcoaching@gmail.com";
+		data[0][1] = "testpass123";
 		return data;
 	}
 
