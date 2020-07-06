@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestParameterization {
 	
-	@Test
+	@Test(dataProvider = "getData")
 	public void doLogin(String username, String password) {
 		System.out.println(username + "---" + password);
 	}
@@ -22,6 +22,7 @@ public class TestParameterization {
 		
 		data[2][0] = "java@way2automation.com";
 		data[2][1] = "testpass123";
+		
 		return data;
 	}
 
