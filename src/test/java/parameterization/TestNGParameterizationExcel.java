@@ -27,6 +27,12 @@ public class TestNGParameterizationExcel {
 		
 		//Create an object array with total number of rows and columns.
 		Object[][] data = new Object[rows - 1][cols];
+		
+		//Loop to run on rows and columns.
+		for(int rowNum = 2; rowNum <= rows; rowNum++) {
+			
+		}
+		
 		return data;
 		
 	}
