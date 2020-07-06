@@ -12,6 +12,7 @@ public class TestParameterization {
 	
 	@DataProvider
 	public Object[][] getData() {
+		//Create an object array with total number of rows and columns.
 		Object[][] data = new Object[3][2];
 		
 		data[0][0] = "trainer@way2automation.com";

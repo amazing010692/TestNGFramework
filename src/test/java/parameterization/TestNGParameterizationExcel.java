@@ -12,6 +12,9 @@ public class TestNGParameterizationExcel {
 	
 	@DataProvider
 	public static Object[][] getData() {
+		//Create an object array with total number of rows and columns.
+		Object[][] data = new Object[3][2];
+		return data;
 		
 	}
 
