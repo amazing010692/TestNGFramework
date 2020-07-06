@@ -15,8 +15,13 @@ public class TestNGParameterizationExcel {
 	@DataProvider
 	public static Object[][] getData() {
 		
+		if(excel == null) {
+			//Path of Excel file reference.
+			excel = new ExcelReader("C:\\Users\\hello\\Documents\\testngdata.xlsx");
+		}
+		
 		//Create an object array with total number of rows and columns.
-		Object[][] data = new Object[3][2];
+		Object[][] data = new Object[2][3];
 		return data;
 		
 	}
