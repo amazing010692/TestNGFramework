@@ -8,6 +8,7 @@ public class TestNGParameterizationExcel {
 	public static ExcelReader excel = null;
 	
 	@Test(dataProvider = "getData")
+	//Input here the column names.
 	public void testData(String username, String password, String is_correct) {
 		System.out.println(username + "---" + password + "---" + is_correct);
 	}
