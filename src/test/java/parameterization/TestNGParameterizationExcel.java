@@ -11,7 +11,7 @@ public class TestNGParameterizationExcel {
 	
 	@Test(dataProvider = "getData")
 	public void testData(Hashtable<String, String> data) {
-		System.out.println(username + "---" + password + "---" + is_correct);
+		//System.out.println(username + "---" + password + "---" + is_correct);
 	}
 	
 	//Hashtable
