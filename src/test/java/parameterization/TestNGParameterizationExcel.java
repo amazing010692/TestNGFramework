@@ -33,6 +33,9 @@ public class TestNGParameterizationExcel {
 		//Create an object array with total number of rows and columns.
 		Object[][] data = new Object[rows - 1][1];
 		
+		//Create an object of the Hashtable.
+		Hashtable<String, String> table = null;
+		
 		//Loop to run on rows and columns.
 		for(int rowNum = 2; rowNum <= rows; rowNum++) {
 			for(int colNum = 0; colNum < cols; colNum++) {
