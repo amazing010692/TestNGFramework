@@ -40,8 +40,14 @@ public class TestNGParameterizationExcel {
 		for(int rowNum = 2; rowNum <= rows; rowNum++) {
 			// A hashtable will also be created for each row.
 			table = new Hashtable<String, String>();
+			
 			for(int colNum = 0; colNum < cols; colNum++) {
-				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
+				//data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
+				
+				//Way to put the data in a hashtable.
+				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));
+				//Create a 2 dimensional array.
+				data[rowNum - 2][0] = table;
 			}
 		}
 		
