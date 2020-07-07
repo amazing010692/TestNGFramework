@@ -11,8 +11,9 @@ public class TestNGParameterizationExcel {
 	
 	@Test(dataProvider = "getData")
 	public void testData(Hashtable<String, String> data) {
-		//Get the column data.
-		System.out.println(data.get("username"));
+		//Get the columns data of the Excel file
+		System.out.println(data.get("username") + "---" + data.get("password") + "---" 
+		+ data.get("is_correct") + "---" + data.get("age") + "---" + data.get("gender"));
 	}
 	
 	//Hashtable
