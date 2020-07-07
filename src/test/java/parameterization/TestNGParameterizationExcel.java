@@ -1,5 +1,7 @@
 package parameterization;
 
+import java.util.Hashtable;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -8,8 +10,7 @@ public class TestNGParameterizationExcel {
 	public static ExcelReader excel = null;
 	
 	@Test(dataProvider = "getData")
-	//Input here the column names.
-	public void testData(String username, String password, String is_correct) {
+	public void testData(Hashtable<String, String> data) {
 		System.out.println(username + "---" + password + "---" + is_correct);
 	}
 	
@@ -30,7 +31,7 @@ public class TestNGParameterizationExcel {
 		int cols = excel.getColumnCount(sheetName);
 		
 		//Create an object array with total number of rows and columns.
-		Object[][] data = new Object[rows - 1][cols];
+		Object[][] data = new Object[rows - 1][1];
 		
 		//Loop to run on rows and columns.
 		for(int rowNum = 2; rowNum <= rows; rowNum++) {
