@@ -5,7 +5,7 @@
     <classes>
       <class name="parameterization.LoginTest">
         <methods>
-          <include name="testData"/>
+          <include name="testUserReg"/>
         </methods>
       </class> <!-- parameterization.LoginTest -->
     </classes>

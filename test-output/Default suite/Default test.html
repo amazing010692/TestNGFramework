@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 08 14:12:34 PST 2020</td>
+<td>Started on:</td><td>Wed Jul 08 14:50:09 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (108 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (113 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='parameterization.LoginTest.testData()'><b>testData</b><br>Test class: parameterization.LoginTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Method public void parameterization.LoginTest.testData(java.lang.String,java.lang.String) requires a @DataProvider named : dp1
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:691)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+<td title='parameterization.LoginTest.testUserReg()'><b>testUserReg</b><br>Test class: parameterization.LoginTest</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testUserReg([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) janielle,(java.lang.String) password123]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -100,14 +100,14 @@ Method public void parameterization.LoginTest.testData(java.lang.String,java.lan
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace633240419", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace633240419'><pre>org.testng.TestNGException: 
-Method public void parameterization.LoginTest.testData(java.lang.String,java.lang.String) requires a @DataProvider named : dp1
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:513)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:691)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1383519982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1383519982'><pre>org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testUserReg([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) janielle,(java.lang.String) password123]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -127,7 +127,25 @@ Method public void parameterization.LoginTest.testData(java.lang.String,java.lan
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>parameterization.LoginTest@26d9b808</td></tr>
+<td>parameterization.LoginTest@644baf4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parameterization.LoginTest.testLogin()'><b>testLogin</b><br>Test class: parameterization.LoginTest<br>Parameters: janielle, password123</td>
+<td></td>
+<td>0</td>
+<td>parameterization.LoginTest@644baf4a</td></tr>
+<tr>
+<td title='parameterization.LoginTest.testLogin()'><b>testLogin</b><br>Test class: parameterization.LoginTest<br>Parameters: jangreg, password321</td>
+<td></td>
+<td>0</td>
+<td>parameterization.LoginTest@644baf4a</td></tr>
 </table><p>
 </body>
 </html>
