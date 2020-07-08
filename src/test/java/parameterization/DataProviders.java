@@ -1,5 +1,7 @@
 package parameterization;
 
+import java.lang.reflect.Method;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -12,7 +14,7 @@ public class DataProviders {
 	}
 	
 	@DataProvider(name = "dp1")
-	public static Object[][] getData() {
+	public static Object[][] getData(Method m) {
 		
 		//Create an object array for 2 rowns and 2 columns.
 		Object[][] data = new Object[2][2];
