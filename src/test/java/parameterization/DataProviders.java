@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 public class DataProviders {
 	
 	@Test(dataProvider = "dp1")
-	public void testData() {
-		
+	//Add arguments based on the columns.
+	public void testData(String username, String password) {
+		System.out.println(username + "---" + password);
 	}
 	
 	@DataProvider(name = "dp1")
