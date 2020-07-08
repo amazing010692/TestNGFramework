@@ -4,6 +4,15 @@
 
   <test name="TestParametersFromXML Test">
   <parameter name = "browser" value = "firefox"></parameter>
+  <parameter name = "environment" value = "qa"></parameter>
+    <classes>
+      <class name="parameterization.TestParametersFromXML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="TestParametersFromXML2 Test">
+  <parameter name = "browser" value = "chrome"></parameter>
+  <parameter name = "environment" value = "uat"></parameter>
     <classes>
       <class name="parameterization.TestParametersFromXML"/>
     </classes>

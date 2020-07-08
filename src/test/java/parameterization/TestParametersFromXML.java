@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 
 public class TestParametersFromXML {
 	
-	@Parameters({"browser"})
+	@Parameters({"browser", "environment"})
 	@Test
-	public void getBrowser(String browser) {
-		System.out.println(browser);
+	public void getBrowser(String browser, String environment) {
+		System.out.println(browser + "---" + environment);
 	}
 
 }

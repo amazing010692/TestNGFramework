@@ -1,87 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-08T07:40:55Z" name="Default suite" finished-at="2020-07-08T07:40:55Z" duration-ms="145">
+  <suite started-at="2020-07-08T10:13:30Z" name="Regression Suite" finished-at="2020-07-08T10:13:31Z" duration-ms="224">
     <groups>
     </groups>
-    <test started-at="2020-07-08T07:40:55Z" name="Default test" finished-at="2020-07-08T07:40:55Z" duration-ms="145">
-      <class name="parameterization.LoginTest">
-        <test-method signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:parameterization.LoginTest@644baf4a]" started-at="2020-07-08T07:40:55Z" name="testLogin" data-provider="dp1" finished-at="2020-07-08T07:40:55Z" duration-ms="16" status="PASS">
+    <test started-at="2020-07-08T10:13:30Z" name="TestParametersFromXML Test" finished-at="2020-07-08T10:13:30Z" duration-ms="75">
+      <class name="parameterization.TestParametersFromXML">
+        <test-method signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParametersFromXML@54c5a2ff]" started-at="2020-07-08T10:13:30Z" name="getBrowser" finished-at="2020-07-08T10:13:30Z" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[janielle]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password123]]>
+                <![CDATA[qa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:parameterization.LoginTest@644baf4a]" started-at="2020-07-08T07:40:55Z" name="testLogin" data-provider="dp1" finished-at="2020-07-08T07:40:55Z" duration-ms="7" status="PASS">
+        </test-method> <!-- getBrowser -->
+      </class> <!-- parameterization.TestParametersFromXML -->
+    </test> <!-- TestParametersFromXML Test -->
+    <test started-at="2020-07-08T10:13:31Z" name="TestParametersFromXML2 Test" finished-at="2020-07-08T10:13:31Z" duration-ms="8">
+      <class name="parameterization.TestParametersFromXML">
+        <test-method signature="getBrowser(java.lang.String, java.lang.String)[pri:0, instance:parameterization.TestParametersFromXML@795509d9]" started-at="2020-07-08T10:13:31Z" name="getBrowser" finished-at="2020-07-08T10:13:31Z" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[jangreg]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password321]]>
+                <![CDATA[uat]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testUserReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization.LoginTest@644baf4a]" started-at="2020-07-08T07:40:55Z" name="testUserReg" data-provider="dp1" finished-at="2020-07-08T07:40:55Z" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[janielle]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[gregorio]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUserReg -->
-        <test-method signature="testUserReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization.LoginTest@644baf4a]" started-at="2020-07-08T07:40:55Z" name="testUserReg" data-provider="dp1" finished-at="2020-07-08T07:40:55Z" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jangreg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jjsg]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test1@outlook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUserReg -->
-      </class> <!-- parameterization.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getBrowser -->
+      </class> <!-- parameterization.TestParametersFromXML -->
+    </test> <!-- TestParametersFromXML2 Test -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
