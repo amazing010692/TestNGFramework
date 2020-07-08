@@ -30,7 +30,7 @@ public class DataProviders {
 			
 			data[1][0] = "jangreg";
 			data[1][1] = "jjsg";
-			data[0][1] = "test1@outlook.com";
+			data[1][2] = "test1@outlook.com";
 		}
 		
 		return data;
@@ -49,7 +49,7 @@ public class DataProviders {
 		
 		data[1][0] = "jangreg";
 		data[1][1] = "jjsg";
-		data[0][1] = "test1@outlook.com";
+		data[1][2] = "test1@outlook.com";
 		
 		return data;
 
