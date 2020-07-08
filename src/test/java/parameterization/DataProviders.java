@@ -1,8 +1,14 @@
 package parameterization;
 
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 public class DataProviders {
+	
+	@Test(dataProvider = "dp1")
+	public void testData() {
+		
+	}
 	
 	@DataProvider(name = "dp1")
 	public static Object[][] getData() {
