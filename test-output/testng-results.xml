@@ -1,57 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-08T01:20:22Z" name="Default suite" finished-at="2020-07-08T01:20:25Z" duration-ms="3453">
+  <suite started-at="2020-07-08T06:06:47Z" name="Default suite" finished-at="2020-07-08T06:06:47Z" duration-ms="132">
     <groups>
     </groups>
-    <test started-at="2020-07-08T01:20:22Z" name="Default test" finished-at="2020-07-08T01:20:25Z" duration-ms="3453">
-      <class name="parameterization.TestNGParameterizationExcel">
-        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:parameterization.TestNGParameterizationExcel@11392934]" started-at="2020-07-08T01:20:25Z" name="testData" data-provider="getData" finished-at="2020-07-08T01:20:25Z" duration-ms="40" status="PASS">
+    <test started-at="2020-07-08T06:06:47Z" name="Default test" finished-at="2020-07-08T06:06:47Z" duration-ms="132">
+      <class name="parameterization.DataProviders">
+        <test-method signature="testData(java.lang.String, java.lang.String)[pri:0, instance:parameterization.DataProviders@2a265ea9]" started-at="2020-07-08T06:06:47Z" name="testData" data-provider="dp1" finished-at="2020-07-08T06:06:47Z" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{age=25.0, password=test_password123, gender=F, is_correct=Y, username=janielle}]]>
+                <![CDATA[janielle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:parameterization.TestNGParameterizationExcel@11392934]" started-at="2020-07-08T01:20:25Z" name="testData" data-provider="getData" finished-at="2020-07-08T01:20:25Z" duration-ms="15" status="PASS">
+        <test-method signature="testData(java.lang.String, java.lang.String)[pri:0, instance:parameterization.DataProviders@2a265ea9]" started-at="2020-07-08T06:06:47Z" name="testData" data-provider="dp1" finished-at="2020-07-08T06:06:47Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{age=26.0, password=test_password456, gender=M, is_correct=N, username=jan_greg}]]>
+                <![CDATA[jangreg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password321]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testData -->
-        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:parameterization.TestNGParameterizationExcel@11392934]" started-at="2020-07-08T01:20:25Z" name="testData" data-provider="getData" finished-at="2020-07-08T01:20:25Z" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{age=27.0, password=test_password4789, gender=M, is_correct=N, username=jan2x}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testData -->
-        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:parameterization.TestNGParameterizationExcel@11392934]" started-at="2020-07-08T01:20:25Z" name="testData" data-provider="getData" finished-at="2020-07-08T01:20:25Z" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{age=28.0, password=test_password13, gender=F, is_correct=Y, username=jannn}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testData -->
-      </class> <!-- parameterization.TestNGParameterizationExcel -->
+      </class> <!-- parameterization.DataProviders -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
