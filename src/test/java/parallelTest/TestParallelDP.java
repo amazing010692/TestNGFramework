@@ -15,7 +15,7 @@ public class TestParallelDP {
 		Thread.sleep(2000);
 	}
 	
-	@DataProvider
+	@DataProvider(parallel = true)
 	public Object[][] getData() {
 		//2 rows and 1 column
 		Object[][] data = new Object[2][1];
