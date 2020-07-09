@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Parallel_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Suite" title="parallelTest.TestBrowser" class="method navigator-link" hash-for-method="doLogin(firefox)">doLogin(firefox)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parallel_Suite" title="parallelTest.TestBrowser" class="method navigator-link" hash-for-method="doLogin(chrome)">doLogin(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parallel_Suite" title="parallelTest.TestBrowser" class="method navigator-link" hash-for-method="doLogin(chrome)">doLogin(chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parallel_Suite" title="parallelTest.TestBrowser" class="method navigator-link" hash-for-method="doLogin(firefox)">doLogin(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Parallel_Suite -->
@@ -130,18 +130,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(firefox)">
-                  </a> <!-- doLogin(firefox) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(firefox)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="doLogin(chrome)">
                   </a> <!-- doLogin(chrome) -->
                   <span class="method-name">doLogin</span>
                   <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(firefox)">
+                  </a> <!-- doLogin(firefox) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -155,14 +155,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Parallel Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Firefox Test&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Parallel Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Firefox Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;parallelTest.TestBrowser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Firefox Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;parallelTest.TestBrowser&quot;/&gt;
@@ -212,11 +212,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLogin')
 data.setCell(0, 2, 'parallelTest.TestBrowser')
-data.setCell(0, 3, 2070);
+data.setCell(0, 3, 2060);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'doLogin')
 data.setCell(1, 2, 'parallelTest.TestBrowser')
-data.setCell(1, 3, 2045);
+data.setCell(1, 3, 2039);
 window.suiteTableData['Parallel_Suite']= { tableData: data, tableDiv: 'times-div-Parallel_Suite'}
 return data;
 }
@@ -254,7 +254,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doLogin(chrome)</span>
-                <span class="method-start">2459 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
