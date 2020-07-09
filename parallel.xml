@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Regression Suite">
+<suite name="Parallel Suite">
 
-  <test name="TestParametersFromXML Test">
+  <test name="Firefox Test">
   <parameter name = "browser" value = "firefox"></parameter>
-  <parameter name = "environment" value = "qa"></parameter>
     <classes>
-      <class name="parameterization.TestParametersFromXML"/>
+      <class name="parallelTest.TestBrowser"/>
     </classes>
   </test> <!-- Test -->
   
-    <test name="TestParametersFromXML2 Test">
+    <test name="Chrome Test">
   <parameter name = "browser" value = "chrome"></parameter>
-  <parameter name = "environment" value = "uat"></parameter>
     <classes>
-      <class name="parameterization.TestParametersFromXML"/>
+      <class name="parallelTest.TestBrowser"/>
     </classes>
   </test> <!-- Test -->
   
