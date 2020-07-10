@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-09T03:14:06Z" name="Default suite" finished-at="2020-07-09T03:14:08Z" duration-ms="2155">
+  <suite started-at="2020-07-10T01:09:07Z" name="Default suite" finished-at="2020-07-10T01:09:09Z" duration-ms="2101">
     <groups>
     </groups>
-    <test started-at="2020-07-09T03:14:06Z" name="Default test" finished-at="2020-07-09T03:14:08Z" duration-ms="2155">
+    <test started-at="2020-07-10T01:09:07Z" name="Default test" finished-at="2020-07-10T01:09:09Z" duration-ms="2101">
       <class name="parallelTest.TestParallelDP">
-        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestParallelDP@2a265ea9]" started-at="2020-07-09T03:14:06Z" name="doLogin" data-provider="getData" finished-at="2020-07-09T03:14:08Z" duration-ms="2042" status="PASS">
+        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestParallelDP@2a265ea9]" started-at="2020-07-10T01:09:07Z" name="doLogin" data-provider="getData" finished-at="2020-07-10T01:09:09Z" duration-ms="2041" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestParallelDP@2a265ea9]" started-at="2020-07-09T03:14:06Z" name="doLogin" data-provider="getData" finished-at="2020-07-09T03:14:08Z" duration-ms="2042" status="PASS">
+        <test-method signature="doLogin(java.lang.String)[pri:0, instance:parallelTest.TestParallelDP@2a265ea9]" started-at="2020-07-10T01:09:07Z" name="doLogin" data-provider="getData" finished-at="2020-07-10T01:09:09Z" duration-ms="2041" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
