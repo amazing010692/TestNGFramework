@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\hello\AppData\Local\Temp\testng-eclipse-1578016686\testng-customsuite.xml</span>
+                    <span>C:\Users\hello\AppData\Local\Temp\testng-eclipse-1989143573\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestParallelDP" class="method navigator-link" hash-for-method="doLogin(chrome)">doLogin(chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestInvocation" class="method navigator-link" hash-for-method="executeTest">executeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestParallelDP" class="method navigator-link" hash-for-method="doLogin(firefox)">doLogin(firefox)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestInvocation" class="method navigator-link" hash-for-method="executeTest">executeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestInvocation" class="method navigator-link" hash-for-method="executeTest">executeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestInvocation" class="method navigator-link" hash-for-method="executeTest">executeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallelTest.TestInvocation" class="method navigator-link" hash-for-method="executeTest">executeTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,23 +140,42 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">parallelTest.TestParallelDP</span>
+              <span class="class-name">parallelTest.TestInvocation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(chrome)">
-                  </a> <!-- doLogin(chrome) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(chrome)</span>
+                  <a name="executeTest">
+                  </a> <!-- executeTest -->
+                  <span class="method-name">executeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(firefox)">
-                  </a> <!-- doLogin(firefox) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(firefox)</span>
+                  <a name="executeTest">
+                  </a> <!-- executeTest -->
+                  <span class="method-name">executeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTest">
+                  </a> <!-- executeTest -->
+                  <span class="method-name">executeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTest">
+                  </a> <!-- executeTest -->
+                  <span class="method-name">executeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTest">
+                  </a> <!-- executeTest -->
+                  <span class="method-name">executeTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +183,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hello\AppData\Local\Temp\testng-eclipse-1578016686\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hello\AppData\Local\Temp\testng-eclipse-1989143573\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +192,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;parallelTest.TestParallelDP&quot;/&gt;
+      &lt;class name=&quot;parallelTest.TestInvocation&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +232,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doLogin')
-data.setCell(0, 2, 'parallelTest.TestParallelDP')
-data.setCell(0, 3, 2041);
+data.setCell(0, 1, 'executeTest')
+data.setCell(0, 2, 'parallelTest.TestInvocation')
+data.setCell(0, 3, 36);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doLogin')
-data.setCell(1, 2, 'parallelTest.TestParallelDP')
-data.setCell(1, 3, 2041);
+data.setCell(1, 1, 'executeTest')
+data.setCell(1, 2, 'parallelTest.TestInvocation')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'executeTest')
+data.setCell(2, 2, 'parallelTest.TestInvocation')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'executeTest')
+data.setCell(3, 2, 'parallelTest.TestInvocation')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'executeTest')
+data.setCell(4, 2, 'parallelTest.TestInvocation')
+data.setCell(4, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 47 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,14 +283,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">parallelTest.TestParallelDP</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">parallelTest.TestInvocation</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">doLogin(firefox)</span>
+                <span class="method-name">executeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doLogin(chrome)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">executeTest</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeTest</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeTest</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">executeTest</span>
+                <span class="method-start">54 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
