@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestInvocation extends BaseTest {
 	
-	@Test(invocationCount = 5)
+	@Test(invocationCount = 5, threadPoolSize = 5)
 	public void executeTest() {
 		driver = getDriver("chrome");
 		driver.get("https://google.com");
