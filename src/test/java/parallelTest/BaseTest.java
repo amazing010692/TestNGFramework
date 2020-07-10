@@ -13,10 +13,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
-	public static String browser = "chrome"; //excel sheet
-	public static WebDriver driver;
-
-	public static void main(String[] args) throws InterruptedException {
+	public WebDriver driver;
+	
+	public WebDriver getDriver(String browser) {
 		
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -44,6 +43,8 @@ public class BaseTest {
 			driver = new OperaDriver(options);
 		
 		}
+		
+		return driver;
 	
 	}
 
