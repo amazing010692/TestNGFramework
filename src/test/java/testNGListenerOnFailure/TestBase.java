@@ -1,6 +1,9 @@
 package testNGListenerOnFailure;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBase {
 	
@@ -8,7 +11,10 @@ public class TestBase {
 	
 	public void setUp() {
 		if(driver == null) {
-			
+			driver = new FirefoxDriver();
+			driver.get("https://gmail.com");
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 		
 	}
