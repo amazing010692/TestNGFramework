@@ -18,9 +18,13 @@ public class TestBase {
 		if(driver == null) {
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
-			driver.get("https://gmail.com");
+			//Pre-conditions | Maximize the browser and apply implicit waits.
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			//Navigate to this site for sample checkbox.
+			driver.get("https://facebook.com");
+			System.out.println("TITLE: " + driver.getTitle() + " | URL: " + driver.getCurrentUrl());
 		}
 		
 	}

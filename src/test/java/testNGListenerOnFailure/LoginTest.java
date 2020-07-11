@@ -8,11 +8,9 @@ public class LoginTest extends TestBase {
 	
 	@Test
 	public void doLogin() {
-		WebElement username = driver.findElement(By.id("identifierId"));
-		username.sendKeys("java@way2automation.com");
-		
-		WebElement nextButtonU = driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/span/span"));
-		nextButtonU.click();
+		//Input email address.
+		WebElement fieldEmail = driver.findElement(By.xpath("//*[@id='email']"));
+		fieldEmail.sendKeys("test_email@gmail.com");
 	}
 
 }
