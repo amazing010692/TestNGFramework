@@ -1,5 +1,7 @@
 package testNGListenerOnFailure;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -17,7 +19,13 @@ public class TestListener extends TestBase implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
+		
+		try {
+			testUtil.captureScreenshot(null);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 
