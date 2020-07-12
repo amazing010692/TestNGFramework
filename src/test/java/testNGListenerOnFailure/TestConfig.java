@@ -10,8 +10,8 @@ public class TestConfig{
 	public static String subject = "Extent Project Report";
 	
 	public static String messageBody ="TestMessage";
-	public static String attachmentPath="C:\\Users\\hello\\Pictures\\Evolution of Red Blood Cells.jpg";
-	public static String attachmentName="error.jpg";
+	public static String attachmentPath = System.getProperty("user.dir") + "//Reports.zip";
+	public static String attachmentName = "reports.zip";
 	
 	
 	
