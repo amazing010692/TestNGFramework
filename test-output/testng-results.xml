@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-12T08:56:32Z" name="TestNG Listeners" finished-at="2020-07-12T08:56:46Z" duration-ms="14240">
+  <suite started-at="2020-07-12T09:22:49Z" name="TestNG Listeners" finished-at="2020-07-12T09:23:04Z" duration-ms="14851">
     <groups>
     </groups>
-    <test started-at="2020-07-12T08:56:32Z" name="Login Test" finished-at="2020-07-12T08:56:46Z" duration-ms="14240">
+    <test started-at="2020-07-12T09:22:49Z" name="Login Test" finished-at="2020-07-12T09:23:04Z" duration-ms="14851">
       <class name="testNGListenerOnFailure.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T08:56:20Z" name="setUp" finished-at="2020-07-12T08:56:32Z" duration-ms="12345" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T09:22:29Z" name="setUp" finished-at="2020-07-12T09:22:49Z" duration-ms="20367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="composeEmail()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T08:56:32Z" name="composeEmail" finished-at="2020-07-12T08:56:32Z" duration-ms="26" status="FAIL">
+        <test-method signature="composeEmail()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T09:22:49Z" name="composeEmail" finished-at="2020-07-12T09:22:49Z" duration-ms="83" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Error in composing email]]>
@@ -51,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- composeEmail -->
-        <test-method signature="doLogin()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T08:56:33Z" name="doLogin" finished-at="2020-07-12T08:56:46Z" duration-ms="13069" status="FAIL">
+        <test-method signature="doLogin()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T09:22:50Z" name="doLogin" finished-at="2020-07-12T09:23:03Z" duration-ms="13508" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='email_invalid']"}
@@ -60,8 +60,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5VPG43M', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 495ff6393ba4af12f9fb596841a377ed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6b9a1701eed19cdf1e17bf5943027d9
 *** Element info: {Using=xpath, value=//*[@id='email_invalid']}]]>
             </message>
             <full-stacktrace>
@@ -71,8 +71,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-5VPG43M', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 495ff6393ba4af12f9fb596841a377ed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6b9a1701eed19cdf1e17bf5943027d9
 *** Element info: {Using=xpath, value=//*[@id='email_invalid']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -121,7 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T08:56:46Z" name="tearDown" finished-at="2020-07-12T08:56:47Z" duration-ms="958" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGListenerOnFailure.LoginTest@5d0bf09b]" started-at="2020-07-12T09:23:04Z" name="tearDown" finished-at="2020-07-12T09:23:05Z" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
