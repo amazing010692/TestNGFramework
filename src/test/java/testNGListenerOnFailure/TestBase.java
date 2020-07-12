@@ -58,12 +58,13 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://facebook.com");
-		System.out.println("TITLE: " + driver.getTitle() + " | URL: " + driver.getCurrentUrl());
+		System.out.println("Before Suite - TITLE: " + driver.getTitle() + " | URL: " + driver.getCurrentUrl());
 
 	}
 
 	@AfterSuite
 	public void tearDown() {
+		System.out.println("After Suite - Successfully closed the browser.");
 		driver.quit();
 	}
 

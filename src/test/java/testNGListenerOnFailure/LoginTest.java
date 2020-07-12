@@ -12,7 +12,7 @@ public class LoginTest extends TestBase {
 		Thread.sleep(3000);
 		WebElement fieldEmail = driver.findElement(By.xpath("//*[@id='email']"));
 		fieldEmail.sendKeys("test_email@gmail.com");
-		System.out.println("Successfully inputted email address.");
+		System.out.println("TC1 - Successfully inputted email address.");
 	}
 
 }
