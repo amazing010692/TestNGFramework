@@ -11,6 +11,7 @@ public class LoginTest extends TestBase {
 		//Input email address.
 		WebElement fieldEmail = driver.findElement(By.xpath("//*[@id='email']"));
 		fieldEmail.sendKeys("test_email@gmail.com");
+		System.out.println("Successfully inputted email address.");
 	}
 
 }
