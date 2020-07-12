@@ -10,7 +10,7 @@ public class LoginTest extends TestBase {
 	public void doLogin() throws InterruptedException {
 		//Input email address.
 		Thread.sleep(3000);
-		WebElement fieldEmail = driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement fieldEmail = driver.findElement(By.xpath("//*[@id='email_invalid']"));
 		fieldEmail.sendKeys("test_email@gmail.com");
 		System.out.println("TC1 - Successfully inputted email address.");
 	}
