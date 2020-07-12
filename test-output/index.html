@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-TestNG_Listeners" class="show-methods failed suite-TestNG_Listeners"> (show)</a> <!-- show-methods failed suite-TestNG_Listeners -->
                     </span>
                     <div class="method-list-content failed suite-TestNG_Listeners">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Listeners" title="testNGListenerOnFailure.LoginTest" class="method navigator-link" hash-for-method="composeEmail">composeEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNG_Listeners" title="testNGListenerOnFailure.LoginTest" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
@@ -125,6 +130,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="composeEmail">
+                  </a> <!-- composeEmail -->
+                  <span class="method-name">composeEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error in composing email
+	at testNGListenerOnFailure.LoginTest.composeEmail(LoginTest.java:21)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="doLogin">
                   </a> <!-- doLogin -->
                   <span class="method-name">doLogin</span>
@@ -134,8 +150,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-5VPG43M&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62554}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0200ef87420063ca2728223596189c35
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hello\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 495ff6393ba4af12f9fb596841a377ed
 *** Element info: {Using=xpath, value=//*[@id=&apos;email_invalid&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -147,7 +163,7 @@ Session ID: 0200ef87420063ca2728223596189c35
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at testNGListenerOnFailure.LoginTest.doLogin(LoginTest.java:13)
+	at testNGListenerOnFailure.LoginTest.doLogin(LoginTest.java:14)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -209,16 +225,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLogin')
 data.setCell(0, 2, 'testNGListenerOnFailure.LoginTest')
-data.setCell(0, 3, 14116);
+data.setCell(0, 3, 13069);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'composeEmail')
+data.setCell(1, 2, 'testNGListenerOnFailure.LoginTest')
+data.setCell(1, 3, 26);
 window.suiteTableData['TestNG_Listeners']= { tableData: data, tableDiv: 'times-div-TestNG_Listeners'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-TestNG_Listeners">
               </div> <!-- times-div-TestNG_Listeners -->
             </div> <!-- times-div -->
@@ -252,12 +272,18 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">composeEmail</span>
+                <span class="method-start">12389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">doLogin</span>
-                <span class="method-start">20534 ms</span>
+                <span class="method-start">13137 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35604 ms</span>
+                <span class="method-start">26654 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -9,6 +9,7 @@
       <class name="testNGListenerOnFailure.LoginTest">
         <methods>
           <include name="doLogin"/>
+          <include name="composeEmail"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
