@@ -47,7 +47,9 @@ public class TestListener extends TestBase implements ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		testUtil.zip(System.getProperty("user.dir") + "\\screenshot");
+		MonitoringMail mail = new MonitoringMail();
+		//mail.sendMail(mailServer, from, to, subject, messageBody, attachmentPath, attachmentName);
 		
 	}
 
