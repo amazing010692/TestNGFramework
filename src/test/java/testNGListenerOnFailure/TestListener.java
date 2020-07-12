@@ -20,8 +20,10 @@ public class TestListener extends TestBase implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		
+		String methodName = result.getName().toString().trim();
+		
 		try {
-			testUtil.captureScreenshot(null);
+			testUtil.captureScreenshot(methodName);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
