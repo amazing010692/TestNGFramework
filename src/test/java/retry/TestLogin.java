@@ -15,7 +15,7 @@ public class TestLogin {
 	public void registerUsers() {
 		count++;
 		System.out.println(count);
-		Assert.assertEquals(count, 3);
+		Assert.assertEquals(count, 2);
 	}
 
 }
