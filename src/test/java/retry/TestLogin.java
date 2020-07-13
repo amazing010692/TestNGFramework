@@ -10,8 +10,11 @@ public class TestLogin {
 		System.out.println("Executing Login Test");
 	}
 	
+	static int count = 0;
 	@Test(priority = 2)
 	public void registerUsers() {
+		count++;
+		System.out.println(count);
 		Assert.fail("Execution Failed While Registering a User");
 	}
 
