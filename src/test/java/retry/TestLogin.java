@@ -15,7 +15,7 @@ public class TestLogin {
 	public void registerUsers() {
 		count++;
 		System.out.println(count);
-		Assert.fail("Execution Failed While Registering a User");
+		Assert.assertEquals(count, 3);
 	}
 
 }
