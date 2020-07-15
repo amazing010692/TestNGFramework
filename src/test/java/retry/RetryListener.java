@@ -13,7 +13,6 @@ public class RetryListener implements IAnnotationTransformer{
 	public void transform(ITestAnnotation arg0, Class arg1, Constructor arg2, Method arg3) {
 		// TODO Auto-generated method stub
 		
-		@SuppressWarnings("deprecation")
 		IRetryAnalyzer analyzer = arg0.getRetryAnalyzer();
 		
 		if (analyzer == null)	{
